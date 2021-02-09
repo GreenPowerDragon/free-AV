@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - 我的 ASP.NET 应用程序</title>
+    <title><%: Page.Title %> - 噼哩噼哩 (゜-゜)つロ 干杯~-pilipili</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -47,13 +47,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">应用程序名称</a>
+                    <a class="navbar-brand" runat="server" href="~/">pilipili免费视频网</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">主页</a></li>
+                        <li><a runat="server" href="~/login">登录</a></li>
                         <li><a runat="server" href="~/About">关于</a></li>
-                        <li><a runat="server" href="~/Contact">联系方式</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - 我的 ASP.NET 应用程序</p>
+                <p>&copy; <%: DateTime.Now.Year %> - 2021 pilipili官方</p>
             </footer>
         </div>
 

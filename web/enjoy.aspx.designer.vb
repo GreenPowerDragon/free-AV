@@ -11,14 +11,23 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class SiteMaster
+Partial Public Class enjoy
 
     '''<summary>
-    '''MainContent 控件。
+    '''Button1 控件。
     '''</summary>
     '''<remarks>
     '''自动生成的字段。
     '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
     '''</remarks>
-    Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Button2 控件。
+    '''</summary>
+    '''<remarks>
+    '''自动生成的字段。
+    '''若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+    '''</remarks>
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
 End Class

@@ -91,6 +91,15 @@ TextBox2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:pilipili.login._TextBox7">
+<summary>
+TextBox7 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:pilipili.login._CheckBox1">
 <summary>
 CheckBox1 控件。
@@ -202,6 +211,15 @@ Button4 控件。
 <member name="F:pilipili.login._Button5">
 <summary>
 Button5 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Label1">
+<summary>
+Label1 控件。
 </summary>
 <remarks>
 自动生成的字段。

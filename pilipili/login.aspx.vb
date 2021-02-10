@@ -2,6 +2,8 @@
     Inherits System.Web.UI.Page
     Dim num As Integer
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        num = CType(TextBox7.Text, Integer)
+        Label1.Text = Str(num)
 
     End Sub
 
@@ -24,6 +26,7 @@
     Protected Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         If Me.CheckBox1.Checked = True Then
             Me.Panel1.Visible = True
+            Me.Button1.Enabled = True
         Else
             Me.Panel1.Visible = False
         End If
@@ -52,24 +55,30 @@
 
     Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         num = num + 1
+        TextBox7.Text = Str(num)
+        Label1.Text = Str(num)
         Response.Write("<Script Language=JavaScript>alert('已选择喜欢');</Script>")
         If num = 15 Then
             Response.Write("<Script Language=JavaScript>alert('选完了');</Script>")
             Me.Button4.Enabled = False
             Me.Button5.Enabled = False
+            Me.Label1.Text = "完毕"
         End If
-        Me.Image1.ImageUrl = "./imge/" + num + ".jpg"
+        Me.Image1.ImageUrl = "./imge/" + LTrim(Str(num)) + ".jpg"
 
     End Sub
 
     Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         num = num + 1
+        TextBox7.Text = Str(num)
+        Label1.Text = Str(num)
         Response.Write("<Script Language=JavaScript>alert('已选择不喜欢');</Script>")
         If num = 15 Then
             Response.Write("<Script Language=JavaScript>alert('选完了');</Script>")
             Me.Button4.Enabled = False
             Me.Button5.Enabled = False
+            Me.Label1.Text = "完毕"
         End If
-        Me.Image1.ImageUrl = "./imge/" + num + ".jpg"
+        Me.Image1.ImageUrl = "./imge/" + LTrim(Str(num)) + ".jpg"
     End Sub
 End Class

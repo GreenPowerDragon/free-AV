@@ -64,6 +64,168 @@ Button2 控件。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
 </member>
+<member name="F:pilipili.login._Panel2">
+<summary>
+Panel2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._TextBox1">
+<summary>
+TextBox1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._TextBox2">
+<summary>
+TextBox2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._CheckBox1">
+<summary>
+CheckBox1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Button1">
+<summary>
+Button1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Panel1">
+<summary>
+Panel1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._TextBox3">
+<summary>
+TextBox3 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._DropDownList1">
+<summary>
+DropDownList1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._TextBox4">
+<summary>
+TextBox4 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._TextBox5">
+<summary>
+TextBox5 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Button2">
+<summary>
+Button2 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._TextBox6">
+<summary>
+TextBox6 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Panel3">
+<summary>
+Panel3 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Image1">
+<summary>
+Image1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Button4">
+<summary>
+Button4 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Button5">
+<summary>
+Button5 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._FileUpload1">
+<summary>
+FileUpload1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:pilipili.login._Button3">
+<summary>
+Button3 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
 <member name="F:pilipili.SiteMaster._MainContent">
 <summary>
 MainContent 控件。

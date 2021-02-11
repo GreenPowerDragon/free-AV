@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="About" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.vb" Inherits="pilipili.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>噼哩噼哩官方网站</h2>
+    <h2>噼哩噼哩官方网站</h2>
     <h4>这里有什么：</h4>
     <p>1.丰富的视频
     </p>

@@ -52,5 +52,9 @@
         <asp:FileUpload ID="FileUpload1" runat="server" />
         <br />
         <asp:Button ID="Button3" runat="server" Text="开始" />
+        <br />
+        <br />
+        照片来自于<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://cn.pornhub.com/categories">网络</asp:HyperLink>
+        侵权请<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="https://github.com/GreenPowerDragon/free-AV">联系</asp:HyperLink>
     </asp:Panel>
 </asp:Content>

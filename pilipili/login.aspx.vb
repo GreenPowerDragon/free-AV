@@ -33,9 +33,16 @@
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim b As Integer
         Me.Button1.Enabled = False
-        Response.Write("<Script Language=JavaScript>alert('请等待30秒');</Script>")
-        Threading.Thread.Sleep(3000)
+        Me.Button2.Enabled = False
+        For b = 1 To 40
+            Threading.Thread.Sleep(1000)
+            Me.Button2.Text = Str(41 - b)
+        Next
+        Me.Button2.Visible = False
+        Me.TextBox6.Text = "无需输入"
+        Me.TextBox6.ReadOnly = True
         Me.Button1.Enabled = True
         Response.Write("<Script Language=JavaScript>alert('邮箱服务器错误，你无需输入验证码');</Script>")
     End Sub

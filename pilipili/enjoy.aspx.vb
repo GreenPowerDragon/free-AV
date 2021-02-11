@@ -11,6 +11,7 @@
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Response.Write("<Script Language=JavaScript>alert('孩子，该醒醒了，你想做一辈子的萎哥吗？');</Script>")
+        Response.Write("<Script Language=JavaScript>alert('拿起的是枪棒，失去的是精华，得到的是秒男');</Script>")
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
